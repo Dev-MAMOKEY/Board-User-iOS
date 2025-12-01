@@ -52,7 +52,9 @@ struct MainView: View {
                 ScrollView() {
                     LazyVStack(spacing: 0) {
                         ForEach(dummyBoards, id: \.id) { board in
-                            BoardListView(board: board)
+                            NavigationLink(destination: BoardDetailView(board: board)) {
+                                BoardListView(board: board)
+                            }.buttonStyle(PlainButtonStyle())
                             Divider().foregroundColor(Color(hex: "#DFDFDF"))
                         }
                     }

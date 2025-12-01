@@ -26,6 +26,7 @@ struct BoardDetailView: View {
         .frame(maxWidth: .infinity , maxHeight: .infinity , alignment: .topLeading)
         .padding(.horizontal, 20)
         .padding(.vertical, 18)
+        .navigationBarBackButtonHidden(true)
         Spacer()
     }
     
