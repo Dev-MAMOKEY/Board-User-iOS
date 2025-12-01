@@ -15,7 +15,12 @@ struct ExBoardModel {
 }
 
 struct MainView: View {
-    
+
+    // MARK: - 네비게이션 상태 관리
+    // @State: 뷰 내부에서 값이 변경될 수 있는 상태 변수
+    // 이 값이 true로 변경되면 BoardWriteView로 네비게이션됩니다
+    @State private var navigateBoardWriteView = false
+
     let dummyBoards: [ExBoardModel] = [
         ExBoardModel(id: 1, title: "SwiftUI 질문드립니다", content: "NavigationStack 안에서 상태가 안 바뀌는데 혹시 아시는 분 계신가요?"),
         ExBoardModel(id: 2, title: "프로젝트 구조 어떻게 짜야 할까요?", content: "폴더링 기준 추천 좀 부탁드립니다. feature 별로 나누는 게 나을까요?"),
@@ -39,21 +44,27 @@ struct MainView: View {
         ExBoardModel(id: 20, title: "스크롤뷰 안에서 버튼 클릭 안 먹힘", content: "Gesture 우선순위 문제 같은데 해결이 잘 안 됩니다.")
     ]
 
-    
+
     var body: some View {
-        VStack(spacing: 0) {
-            topAppBar
-            ScrollView() {
-                LazyVStack(spacing: 0) {
-                    ForEach(dummyBoards, id: \.id) { board in
-                        BoardListView(board: board)
-                        Divider().foregroundColor(Color(hex: "#DFDFDF"))
+        NavigationStack {
+            VStack(spacing: 0) {
+                topAppBar
+                ScrollView() {
+                    LazyVStack(spacing: 0) {
+                        ForEach(dummyBoards, id: \.id) { board in
+                            BoardListView(board: board)
+                            Divider().foregroundColor(Color(hex: "#DFDFDF"))
+                        }
                     }
                 }
+
+                Spacer()
+
             }
-            
-            Spacer()
-            
+            // MARK: - navigationDestination
+            .navigationDestination(isPresented: $navigateBoardWriteView) {
+                BoardWriteView()
+            }
         }
     }
     
@@ -72,7 +83,9 @@ struct MainView: View {
             Spacer()
             
             HStack(spacing: 12) {
-                Button(action : {}){
+                Button(action : {
+                    navigateBoardWriteView = true
+                }){
                     Image(systemName: "plus")
                         .font(.system(size:20 , weight: .medium))
                         .foregroundColor(.black)
@@ -98,6 +111,8 @@ struct MainView: View {
         .padding(.horizontal,20)
         .padding(.vertical,18)
     }
+    
+    
 }
 
 struct BoardListView: View {
