@@ -25,9 +25,9 @@ struct BoardWriteView: View {
     // MARK: - 게시물 작성 컴포넌드
     private var boardWriteComponent : some View {
         VStack(spacing: 16) {
-            TextField("제목을 입력해주세요" , text: $title)
+            TextField("" , text: $title , prompt: Text("제목을 입력해주세요").foregroundColor(Color(hex: "#DFDFDF")))
                 .font(.pretendardBold24)
-                .foregroundColor(Color(hex: "#DFDFDF"))
+                .foregroundColor(.black)
                 .padding(.horizontal,12)
                 .padding(.vertical, 8)
                 .overlay {
