@@ -10,9 +10,22 @@
 		45DAEAA92ED5850D00DD38E8 /* BoardUser-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BoardUser-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		45DAEACD2EDCA7C800DD38E8 /* Exceptions for "BoardUser-iOS" folder in "BoardUser-iOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 45DAEAA82ED5850D00DD38E8 /* BoardUser-iOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		45DAEAAB2ED5850D00DD38E8 /* BoardUser-iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				45DAEACD2EDCA7C800DD38E8 /* Exceptions for "BoardUser-iOS" folder in "BoardUser-iOS" target */,
+			);
 			path = "BoardUser-iOS";
 			sourceTree = "<group>";
 		};
