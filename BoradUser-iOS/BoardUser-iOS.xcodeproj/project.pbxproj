@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		45DAEAA92ED5850D00DD38E8 /* BoradUser-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BoradUser-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DAEAA92ED5850D00DD38E8 /* BoardUser-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BoardUser-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		45DAEACD2EDCA7C800DD38E8 /* Exceptions for "BoradUser-iOS" folder in "BoradUser-iOS" target */ = {
+		45DAEACD2EDCA7C800DD38E8 /* Exceptions for "BoardUser-iOS" folder in "BoardUser-iOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 45DAEAA82ED5850D00DD38E8 /* BoradUser-iOS */;
+			target = 45DAEAA82ED5850D00DD38E8 /* BoardUser-iOS */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		45DAEAAB2ED5850D00DD38E8 /* BoradUser-iOS */ = {
+		45DAEAAB2ED5850D00DD38E8 /* BoardUser-iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				45DAEACD2EDCA7C800DD38E8 /* Exceptions for "BoradUser-iOS" folder in "BoradUser-iOS" target */,
+				45DAEACD2EDCA7C800DD38E8 /* Exceptions for "BoardUser-iOS" folder in "BoardUser-iOS" target */,
 			);
-			path = "BoradUser-iOS";
+			path = "BoardUser-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		45DAEAA02ED5850D00DD38E8 = {
 			isa = PBXGroup;
 			children = (
-				45DAEAAB2ED5850D00DD38E8 /* BoradUser-iOS */,
+				45DAEAAB2ED5850D00DD38E8 /* BoardUser-iOS */,
 				45DAEAAA2ED5850D00DD38E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		45DAEAAA2ED5850D00DD38E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45DAEAA92ED5850D00DD38E8 /* BoradUser-iOS.app */,
+				45DAEAA92ED5850D00DD38E8 /* BoardUser-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		45DAEAA82ED5850D00DD38E8 /* BoradUser-iOS */ = {
+		45DAEAA82ED5850D00DD38E8 /* BoardUser-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45DAEAB42ED5850E00DD38E8 /* Build configuration list for PBXNativeTarget "BoradUser-iOS" */;
+			buildConfigurationList = 45DAEAB42ED5850E00DD38E8 /* Build configuration list for PBXNativeTarget "BoardUser-iOS" */;
 			buildPhases = (
 				45DAEAA52ED5850D00DD38E8 /* Sources */,
 				45DAEAA62ED5850D00DD38E8 /* Frameworks */,
@@ -74,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				45DAEAAB2ED5850D00DD38E8 /* BoradUser-iOS */,
+				45DAEAAB2ED5850D00DD38E8 /* BoardUser-iOS */,
 			);
-			name = "BoradUser-iOS";
+			name = "BoardUser-iOS";
 			packageProductDependencies = (
 			);
-			productName = "BoradUser-iOS";
-			productReference = 45DAEAA92ED5850D00DD38E8 /* BoradUser-iOS.app */;
+			productName = "BoardUser-iOS";
+			productReference = 45DAEAA92ED5850D00DD38E8 /* BoardUser-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 45DAEAA42ED5850D00DD38E8 /* Build configuration list for PBXProject "BoradUser-iOS" */;
+			buildConfigurationList = 45DAEAA42ED5850D00DD38E8 /* Build configuration list for PBXProject "BoardUser-iOS" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45DAEAA82ED5850D00DD38E8 /* BoradUser-iOS */,
+				45DAEAA82ED5850D00DD38E8 /* BoardUser-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -267,7 +267,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "BoradUser-iOS/Info.plist";
+				INFOPLIST_FILE = "BoardUser-iOS/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -283,7 +283,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mamokey.BoradUser-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mamokey.BoardUser-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -312,7 +312,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "BoradUser-iOS/Info.plist";
+				INFOPLIST_FILE = "BoardUser-iOS/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -328,7 +328,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mamokey.BoradUser-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mamokey.BoardUser-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -347,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		45DAEAA42ED5850D00DD38E8 /* Build configuration list for PBXProject "BoradUser-iOS" */ = {
+		45DAEAA42ED5850D00DD38E8 /* Build configuration list for PBXProject "BoardUser-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45DAEAB22ED5850E00DD38E8 /* Debug */,
@@ -356,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45DAEAB42ED5850E00DD38E8 /* Build configuration list for PBXNativeTarget "BoradUser-iOS" */ = {
+		45DAEAB42ED5850E00DD38E8 /* Build configuration list for PBXNativeTarget "BoardUser-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45DAEAB52ED5850E00DD38E8 /* Debug */,
