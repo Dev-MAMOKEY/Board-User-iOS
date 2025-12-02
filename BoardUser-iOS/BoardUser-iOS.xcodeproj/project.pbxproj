@@ -10,9 +10,11 @@
 		45B2D1632EDE77E300CB4BFB /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 45B2D1622EDE77E300CB4BFB /* KakaoSDK */; };
 		45B2D1652EDE77E300CB4BFB /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 45B2D1642EDE77E300CB4BFB /* KakaoSDKAuth */; };
 		45B2D1672EDE77E300CB4BFB /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 45B2D1662EDE77E300CB4BFB /* KakaoSDKCommon */; };
+		45B2D1692EDE79A100CB4BFB /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 45B2D1682EDE79A100CB4BFB /* Config.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45B2D1682EDE79A100CB4BFB /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		45DAEAA92ED5850D00DD38E8 /* BoardUser-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BoardUser-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -54,6 +56,7 @@
 		45DAEAA02ED5850D00DD38E8 = {
 			isa = PBXGroup;
 			children = (
+				45B2D1682EDE79A100CB4BFB /* Config.xcconfig */,
 				45DAEAAB2ED5850D00DD38E8 /* BoardUser-iOS */,
 				45DAEAAA2ED5850D00DD38E8 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B2D1692EDE79A100CB4BFB /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +159,7 @@
 /* Begin XCBuildConfiguration section */
 		45DAEAB22ED5850E00DD38E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B2D1682EDE79A100CB4BFB /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -271,6 +276,7 @@
 		};
 		45DAEAB52ED5850E00DD38E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B2D1682EDE79A100CB4BFB /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
